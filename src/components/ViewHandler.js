@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
 import Article from './Article';
-
-const Header  = () => (
+//will take in props. 
+//Props will be the different core components of site
+const ViewHandler  = () => (
   <nav>
      <ul>
   <li>
